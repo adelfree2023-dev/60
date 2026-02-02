@@ -30,3 +30,6 @@ export * from "@radix-ui/react-toast";
 export * from "@radix-ui/react-toggle";
 export * from "@radix-ui/react-toggle-group";
 export * from "@radix-ui/react-tooltip";
+
+// TanStack Table
+export * from "@tanstack/react-table";
