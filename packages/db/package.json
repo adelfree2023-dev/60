@@ -1,0 +1,23 @@
+{
+  "name": "@apex/db",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.29.0",
+    "drizzle-kit": "^0.20.0",
+    "pg": "^8.11.0",
+    "@libsql/client": "^0.4.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/pg": "^8.10.0"
+  }
+}
